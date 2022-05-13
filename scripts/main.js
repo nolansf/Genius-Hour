@@ -1,32 +1,22 @@
-const { default: SimpleParallax } = require("simple-parallax-js");
+// parallax, slowed scrolling of certain elemeents
+const parallax = document.getElementsByClassName("parallax");
 
-
-const slowScrolling = document.getElementsByClassName('slowScroll');
-new SimpleParallax(slowScrolling);
-
-const still = document.getElementsByClassName('still');
-new simpleParallax(still, {
-	transition: 'cubic-bezier(0,0,0,1)'
-});
-
-const moveLeft = document.getElementsByClassName('goingLeft');
-new simpleParallax(moveLeft, {
-    orientation: 0,
+window.addEventListener('scroll', function() {
+    const offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = `${offset * 1.2}px`;
 })
 
 
-function updateClock() {
-    var now = new Date(), // current date
-        months = ['January', 'February', 'March', "April", "May", "June", "July", "August", "Septemebr", "October", "November", "December"];
-        time = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds(); 
-
-        date = [now.getDate(), 
-                months[now.getMonth()],
-                now.getFullYear()].join(' ');
-
-    document.getElementById('time').innerHTML = [date, time].join(' / ');
-
-    setTimeout(updateClock, 1000);
+// clock
+window.onload = () => {
+    setInterval(updateClock, 1000)
 }
 
-updateClock();
+function updateClock(){
+    const current = new Date()
+    const clock = document.getElementById("clock")
+    const h = current.getHours()
+    const m = current.getMinutes()
+    const s = current.getSeconds()
+    clock.innerHTML = `${h}:${m}:${s}`
+}

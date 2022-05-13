@@ -1,33 +1,43 @@
-# Simple Investing
+# learning
 
-this is a class project where i need to learn something and show what i leanred
-i plan on learning how to better cerate websites while showcasing hoe to invest at the same time
+this will be all about different specifc and difficult skills that i learn and practical to me
 
-## Insprations
+i will be trying new thinng, testing pallets and building a site not as a portfolio but to test all new skills
 
-- [animations](https://www.cherupil.com)
-- [scrolling and animations](http://signumarchitecture.com/)
-- [display of information](https://www.blockchain.com)
-- [footer](https://www.fitbit.com)
-- [colors and typography](https://brandcolors.com)
+## skills
 
-## Extra Info
+- parallax
+- animations
+- 3d animations
+- javascript interations
+- good custom graphics
+- functional search bar
+- uplaoding an image to change tah background
+- changing color when pressing abutton
+- music player
+- api functionality (weather)
+- text the moves againt the website
+- personal database
+- media queries for all devices
 
-[API](https://www.alphavantage.co/)
+a blog styled website that explains everything that i learned
 
-## Daily Log
+## sections
 
-| Date | Logs |
-| ------- | ------- |
-| March 1st | The project was introduced today the idea was starting to get fleshed out, i decided to create the few files i need to start gathering all of the inforamtion required to help me out later, i started to collect all of the needed inforamtion and im still deciding whether or not i should included a search bar to look up any investments to create a page about it using something still learning |
-| March 2nd | header |
-| March 3rd | # |
-| March 4th | # |
-| March 5th | # |
-| March 6th | # |
-| March 7th | # |
-| March 8th | # |
-| March 9th | # |
-| March 10th | # |
-| March 11th | # |
-| March 12th | # |
+> about us
+> contact
+> socails
+> bios
+
+## insparations and functionality
+
+- [link1](https://beebom.com/cool-interesting-websites/)
+- [link2](https://learn.g2.com/website-features)
+- [link3](https://www.freecodecamp.org/news/101-ways-to-make-your-website-more-awesome-79c934dd2a11/)
+- [link4](http://signumarchitecture.com/)
+
+## grading
+
+- origanality --> creating something new
+- inforamtion adn discovery --> finds an issue and a clever new way to solve the problem
+- problem solving and solution finding --> improves the solutions found
