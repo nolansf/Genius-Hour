@@ -12,22 +12,13 @@ i will be trying new thinng, testing pallets and building a site not as a portfo
 - javascript interations
 - good custom graphics
 - functional search bar
-- uplaoding an image to change tah background
-- changing color when pressing abutton
+- uplaoding an image to change the background
+- changing color when pressing a button
 - music player
 - api functionality (weather)
 - text the moves againt the website
 - personal database
 - media queries for all devices
-
-a blog styled website that explains everything that i learned
-
-## sections
-
-> about us
-> contact
-> socails
-> bios
 
 ## insparations and functionality
 
