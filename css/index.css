@@ -1,45 +1,107 @@
+/* landing */
+.bg1 {
+    background-image: url("../images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg");
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+#still {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
 .title-landing {
-    height: 400px;
+    height: 55vw;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .blurred {
     background-color: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     backdrop-filter: blur(10px);
     padding: 5vw;
     margin: 5vw;
+    width: 100%;
     border-radius: 15px;
 }
 
-.circle {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    background: radial-gradient(#1fff1f, #94ff30);
-    position: absolute;
-    animation: move-up ease-in infinite alternate-reverse;
+.blurred h1 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 36px;
+    line-height: 1.25;
 }
 
-.circle:nth-child(1){
-    top: -25px;
-    left: -25px;
-}
-
-.circle:nth-child(2){
-    top: -25px;
-    left: 25px;
-    animation: move-down;
+.blurred hr {
+    background-color: white;
 }
 
 
-@keyframes move-up {
-    to{
-        transform: translateY(-10px);
-    }
+/* main */
+main {
+    background-color: white;
 }
 
-@keyframes move-down {
-    to{
-        transform: translateY(10px);
-    }
+main article:nth-child(1) img {
+    height: 20vw;
+    width: auto;
 }
+
+.container-fluid {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: space-around;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+div p {
+    margin-right: 2.5vw;
+}
+
+main div hr {
+    margin-right: 2.5vw;
+}
+
+.bg2 {
+    background-image: url("../images/markus-spiske-iar-afB0QQw-unsplash.jpg") !important;
+    background-color: grey;
+}
+
+.bg2 div{
+    border-radius: 10px;
+    background-color: rgba(162, 228, 115, .75);
+    border: 1px solid black;
+    margin: 20vw;
+}
+
+/* clock */
+#clock {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 
+    bg #0F2417 
+    color #FCF0F2
+    border #C8CDE5
+    parent bg  matrix img
+*/
