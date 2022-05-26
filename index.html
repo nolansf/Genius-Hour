@@ -8,14 +8,14 @@
         
         <link rel="stylesheet" href="./css/style.css" type="text/css">
         <link rel="stylesheet" href="./css/index.css" type="text/css">
-        <link rel="stylesheet" href="./css/ideas.css" type="text/css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Macondo&family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
         <!-- 
             font-family: 'Beau Rivage', cursive;
+            font-family: 'Macondo', cursive;
             font-family: 'Merriweather', serif;
             font-family: 'Raleway', sans-serif;
          -->
@@ -26,7 +26,6 @@
 
 
     <body>
-
         <header>
             <div class="header-left">
                 <img src="something" id="logo" title="logo">
@@ -47,6 +46,7 @@
                     </li>
                 </ul>
             </nav>
+            <!-- move the clock into here can move the dropdown menu to somewhere else -->
             <div class="header-right">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
@@ -63,26 +63,53 @@
             </div>
         </header>
 
-
-
-        <main>
-            <div class="contianer">
-                <div class="title-landing">
-                    <div class="blurred">
-                        <h1>Progress is<br>Prefection</h1>
-                        <hr>    
-                    </div>
+        <section id="still" class="landing bg1">
+            <div class="title-landing">
+                <div class="blurred">
+                    <h1>Progress is<br>Prefection</h1>
+                    <hr>    
                 </div>
             </div>
+        </section>
+
+        <div class="container-center">
+            <div id="clock">11:11:11</div>
+        </div>
+
+        <main>
+            <article class="container-center">
+                <div class="container-fluid">
+                    <figure>
+                        <img src="./images/uriel-soberanes-MxVkWPiJALs-unsplash.jpg">
+                        <figcaption>VR Headset</figcaption>
+                    </figure>
+                </div>
+
+                <div id="tech-everywhere">
+                    <h3>Technology is Everywhere</h3>
+                    <hr>
+                    <p>In the near future, technology with become more and more prominate in our lives. The full understanding of technology in neccessary while the usage of programming never hurt anyone while getting a job. Many jobs that once utilized many hands in order to complete, like the assemby belt to make cars, are fully automated by machines.</p>
+                </div>
+            </article>
+
         </main>
 
+        <section id="still" class="bg2"> <!-- bg of the matrix with the div being spaced out with a background color -->
+            <div id="history">
+                <h3>History</h3>
+                <hr>
+                <p>Invented by Alan Turing in 1936, the turing machine is the first step in the line of our modern eletrical computers. A Turing machine consists of a line of cells known as the "tape", together with a single active cell, known as the "head". The cells on the tape can have a certain set of possible colors, and the head can be in a certain set of possible states. Any particular Turing machine is defined by a rule which specifies what the head should do at each step. The rule looks at the state of the head, and the color of the cell that the head is on. Then it specifies what the new state of the head should be. </p>    
+            </div>
+        </section>
 
-        <!-- 
-            the value of coding and how it is going to impact everyone future
-            how it has currently impacted everyone life
-            where would be if programming wwas never conceptuilized ==> the turning machine
-         -->
 
+         <!--
+                impact
+            without alan turing developing his machine that the first computer, we would never have teh ability to share inforamtion at the rate we do today. The best way to learn would be from someone who already knows the topics or books. Even with books, the rate at which we move and innovate today is uncompareable to any other time in history when human had existed. 
+            .   Within 33 years of the turing machine being developed, they landind on the moon. A simple 40,000 lines of code that moved humans forward. Today, 50 years since they landed on teh moon, people like me who dont specialize in programming as a career are able to create at a faster rate than them. Especial since the internet has used by the public for a total of 29 years.
+                future
+            Many people thikn the future is going to be about human with a better technology than we currently do. 
+        -->
 
         <footer>
             <div>
@@ -90,10 +117,10 @@
                 <h3>&copy; 2022 Nolan Flynn</h3>
             </div>
 
-            <div>
+            <div class="breadcrumb-container">
                 <ul class="breadcrumb">
-                    <li><a href="#top">Terms of Use</a></li>
-                    <li><a href="#top">Privacy Policy</a></li>
+                    <li><a href="#navbar">Terms of Use</a></li>
+                    <li><a href="#navbar">Privacy Policy</a></li>
                     <li><a href="somewhere">Source Code</a></li>
                 </ul>
             </div>
