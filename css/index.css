@@ -3,9 +3,6 @@
     background-image: url("../images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg");
     background-color: grey;
     margin-bottom: 15px;
-}
-
-#still {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,12 +14,11 @@
 }
 
 .title-landing {
-    height: 55vw;
+    height: 50vw;
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .1);
 }
 
 .blurred {
@@ -47,61 +43,149 @@
 }
 
 
-/* main */
-main {
-    background-color: white;
+/* main and subsections*/
+
+.inline {
+    display: inline-flex;
+    align-items: center;
 }
 
-main article:nth-child(1) img {
-    height: 20vw;
+.squish {
+    padding: 0 10vw;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div { 
+    padding: 2vw;
+}
+
+figure .img-first {
+    height: 450px;
     width: auto;
 }
 
-.container-fluid {
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: space-around;
-}
-
-.container-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+figure .img-second {
+    height: 450px;
+    width: auto;
 }
 
 figcaption {
     font-size: 12px;
 }
 
-div p {
-    margin-right: 2.5vw;
-}
-
-main div hr {
-    margin-right: 2.5vw;
-}
-
 .bg2 {
-    background-image: url("../images/markus-spiske-iar-afB0QQw-unsplash.jpg") !important;
+    background-image: url("../images/markus-spiske-iar-afB0QQw-unsplash.jpg");
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
 }
 
 .bg2 div{
     border-radius: 10px;
     background-color: rgba(162, 228, 115, .75);
-    border: 1px solid black;
     margin: 20vw;
 }
 
-/* clock */
-#clock {
-    font-size: 18px;
-    font-weight: bold;
+.bg3 .inline {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 10vw;
 }
 
-/* 
-    bg #0F2417 
-    color #FCF0F2
-    border #C8CDE5
-    parent bg  matrix img
-*/
+.bg4 {
+    background-image: url("../images/dylan-jenkinson-NZy-F0JNbXc-unsplash.jpg");
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    height: 50vw;
+}
+
+.sub-bg4{
+    margin: 10vw;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+/* timeline */
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container-timeline {
+    padding: 10px 30px;
+    position: relative;
+    width: 50%;
+}
+
+.left {
+    left: -2%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 23px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right {
+    left: 48.75%;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 23px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.content-timeline {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}

@@ -1,5 +1,11 @@
 html {
     scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h1 + h3 {
+    font-family: 'Merriweather', serif; 
 }
 
 body {
@@ -12,12 +18,13 @@ header {
     position: fixed;
     background-color: rgba(15, 36, 23, .25); 
     height: 35px;
-    width: 100%;
-    border-bottom: 1px solid black;
+    width: 95%;
+    border-bottom: 2px solid black;
     display: inline-flex;
     justify-content: space-between;
     z-index: 5;
     color: #FCF0F2;
+    margin: 0 2.5%;
 }
 
 header a {
@@ -36,20 +43,42 @@ header a {
     margin-right: 15px;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+/* dropdown */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
     z-index: 6;
     width: 75px;
-    height: 75px;
+    height: 78px;
     border-radius: 5%;
     border: 1px black solid;
     box-shadow: 5px 5px 10px;
 }
 
+.dropdown-content a {
+    color: black;
+    padding: 8px;
+}
+
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+/* clock */
+#clock {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -75,17 +104,12 @@ a:visited {
 
 /* footer */
 footer {
-    position: relative;
-    height: 36px;
+    height: 3vw;
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-footer h3 {
-    margin-top: 0;
-}
-
 
 /* breadcrumbs*/
 .breadcrumb-container {
