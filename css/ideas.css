@@ -1,0 +1,119 @@
+:root {
+    --parent: #36393A;
+    --bg: #B7BBBD;
+    --color: #1C422B;
+    --border: #398557;
+}
+
+body {
+    background-color: rgba(25, 25, 25, .5);
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    display: inline-block;
+    width: 5px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    animation: scale-up 1s linear infinite;
+}
+
+.bar:nth-child(2) {
+    height: 87.5px;
+    margin: 0 8px;
+    animation-delay: .25s;
+}
+
+.bar:nth-child(3) {
+    animation-delay: .5s;
+}
+
+@keyframes scale-up {
+    20% {
+        background-color: white;
+        transform: scaleY(1.5);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+}
+
+.bg-lg {
+    width: calc(100%-2vh);
+    padding: 1% 2vh;
+    background-color: var(--parent);
+    margin-top: 5%;
+}
+
+.card-divider {
+    width: 98%;
+    height: 3px;
+    background-color: var(--color);
+}
+
+.card {
+    background-color: var(--bg);
+    padding: 0 1%;
+    color: var(--color);
+    border: 5px solid var(--border);
+}
+
+
+.sample-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.sample-card-hourly h3, .sample-card-daily h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.inline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3vh 0;
+}
+
+.sample-card-hour, .sample-card-day {
+    text-align: center;
+}
+
+.sample-card-title {
+    font-size: 1.1em;
+}
+
+.sample-card-title.now {
+    font-weight: bolder;
+}
+
+.sample-card-degree-high, .sample-card-degree {
+    font-size: 1.35em;
+}
+
+.sample-card-degree-low {
+    font-weight: 300;
+}
+
+.sample-card-degree-high, .sample-card-degree-low, .sample-card-degree {
+    line-height: 0em;
+}
+
+.row {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: 45%;
+}
