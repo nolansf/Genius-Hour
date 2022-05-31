@@ -26,43 +26,63 @@
 
 
     <body>
+
         <header>
             <div class="header-left">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <div class="dropdown-btn">Dropdown Menu</div>
-                        <div class="dropdown-content">
-                            <a class="dropdown-link" href="somewhere">Link 1</a>
-                            <a class="dropdown-link" href="somewhere">Link 2</a>
-                            <a class="dropdown-link" href="somewhere">Link 3</a>
-                            <a class="dropdown-link" href="somewhere">Link 4</a>
-                        </div>
-                    </li>
-                </ul>
+                <div id="color-theme">
+                    <a class="nav-link" href="index.html">LOGO</a>
+                    <!-- logo needed, but to lazy to make it -->
+                </div>
             </div>
-            <nav class="navbar" role="navigation">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="somewhere">Learning</a>
-                        <!-- take me to where i learned to code, why i did it, and my insparation for this website -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="somewhere">Features</a>
-                        <!-- show cases individual features of the landing page -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/nolansf/Genius-Hour">Code</a>
-                        <!-- directs you to github -->
-                    </li>
-                </ul>
-            </nav>
-            <!-- move the clock into here can move the dropdown menu to somewhere else -->
+
+            <div class="header-center">
+                <nav class="navbar" role="navigation">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <!-- bring you back home (just in case i want to expand) -->
+                        <li class="nav-item dropdown">
+                            <div class="dropdown-btn">
+                                <a class="nav-link" href="./pages/learning.html">Learning</a>
+                            </div>
+                            <!-- shows something that is completely different from teh website itself, this will lead you to a weather api -->
+                            <div class="dropdown-content">
+                                <a class="dropdown-link" href="https://www.w3schools.com/" target="_blank">w3schools</a>
+                                <a class="dropdown-link" href="https://www.codecademy.com/" target="_blank">codecademy</a>
+                                <a class="dropdown-link" href="https://www.freecodecamp.org/" target="_blank">freecodecamp</a>
+                                <a class="dropdown-link" href="https://free-for.dev/#/?id=free-fordev" target="_blank">free-for.dev</a>
+                            </div>
+                            <!-- take me to where i learned to code, why i did it, and my insparation for this website -->
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/features.html">Features</a>
+                            <!-- show cases individual features of the landing page -->
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/nolansf/Genius-Hour" target="_blank">Code</a>
+                            <!-- directs you to github -->
+                        </li>
+                    </ul>
+                </nav>    
+            </div>
+            
             <div class="header-right">
-                <div id="clock">11:11:11</div>
+                <div class="sidebar">
+                    <div class="sidebar-btn">Sidebar</div>
+                    <div class="sidebar-content">
+                        <div id="clock">11:11:11</div>
+                    </div>
+                    <div></div>
+                </div>
             </div>
+            <!-- sidebar menu for extra stuff -->
         </header>
 
-        <section class="landing bg1">
+        <section id="landing" class="landing bg1">
             <div class="title-landing">
                 <div class="blurred">
                     <h1>Progress is<br>Prefection</h1>
@@ -70,6 +90,7 @@
                 </div>
             </div>
         </section>
+        <!-- the first thing you see -->
 
 
         <main>
@@ -81,6 +102,7 @@
                         <figcaption class="img-description">VR Headset</figcaption>
                     </figure>
                 </div>
+                <!-- image with a little description-->
 
                 <div class="center">
                     <div id="tech-everywhere">
@@ -96,17 +118,18 @@
             </section> 
 
 
-            <section class="bg2">
+            <section id="history1" class="bg2">
                 <div class="sub-bg2">
                     <h3 class="title">History</h3>
                     <hr>
                     <p class="text">The history of computers goes back over 200 years. At first theorized by mathematicians and entrepreneurs, during the 19th century mechanical calculating machines were designed and built to solve the increasingly complex number-crunching challenges. The advancement of technology enabled ever more-complex computers by the early 20th century, and computers became larger and more powerful.</p>
                     <p class="text">Today, computers are almost unrecognizable from designs of the 19th century, such as Charles Babbage's Analytical Engine — or even from the huge computers of the 20th century that occupied whole rooms, such as the Electronic Numerical Integrator and Calculator.  </p>    
                 </div>
+                <!-- although no image, the background has been changed to a matrix -->
             </section>
 
 
-            <section id="history">
+            <section id="history2">
                 <div class="timeline">
                     <div class="container-timeline left">
                         <div class="content-timeline">
@@ -145,6 +168,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- fancy timeline that is wanky when you change the viewport to anything smaller -->
             </section>
 
             <!-- from this point, it was a race to build the fastest and smalest computer. Originally they use ot take up entire room and cost more than houses at the time. decades later, computers are still expensive, but you can hold them now -->
@@ -165,7 +189,8 @@
                             <img class="img-second" src="./images/ge-bottle.png">
                             <figcaption>glitch effect on broken bottle</figcaption>
                         </figure>
-                    </div>    
+                    </div> 
+                    <!-- another image with a description that i made in photoshot, did you know i hate photoshop -->   
                 </div>
                 
             </section>
@@ -178,6 +203,7 @@
                     <p class="text">Without Alan Turing developing his machine known as the first computer, we would never have the ability to share information at the rate we do today. The best way to learn would be from someone who already knows the topics or books. Even with books, the rate at which we move and innovate today is incomparable to any other time in history when humans had existed. 33 years after Turing's machine development, humans landed on the moon. A simple 40,000 lines of code that moved humans forward. Today, 50 years since they landed on the moon, people like me who don't specialize in programming as a career can create faster than before. Since the internet's creation, the public has used the internet for 29 years. After 29 years, humans have found the internet very interesting. We as a species journey to websites like youtube and watch for hours. Not to mention that 500 hours of video are uploaded to YouTube every minute. That's nothing compared to the 250 million hours of content watched per day.</p>
                     <p class="text">Many people think the future is going to be about humans with unknown super technology. Something that is life-altering like a robot to help us without daily lives. Movies portray cars that drive themselves and machines that travel the universe. Both the good of these techniques are presented and the possibilities of the negative side too, like the terminator or I, robot.</p>    
                 </div>
+                <!-- background of a dessert with some rgb layers being sperated -->
             </section>
         </main>
 
@@ -187,9 +213,9 @@
 
             <div class="breadcrumb-container">
                 <ul class="breadcrumb">
-                    <li><a href="#future">Terms of Use</a></li>
-                    <li><a href="#navbar">Privacy Policy</a></li>
-                    <li><a href="https://github.com/nolansf/Genius-Hour">Source Code</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="https://github.com/nolansf/Genius-Hour" target="_blank">Source Code</a></li>
                 </ul>
             </div>
         </footer>

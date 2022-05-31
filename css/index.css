@@ -44,7 +44,6 @@
 
 
 /* main and subsections*/
-
 .inline {
     display: inline-flex;
     align-items: center;
@@ -99,7 +98,7 @@ figcaption {
 
 .bg3 .inline {
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .75);
     margin: 10vw;
 }
 
@@ -126,17 +125,23 @@ figcaption {
 }
 
 /* timeline */
+#history1 {
+    color: white;
+}
+
 .timeline {
     position: relative;
     margin: 0 auto;
-    background-color: black;
+    background-color: white;
+    border-bottom: 6px solid black;
+    color: white
 }
 
 .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: black;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -146,11 +151,12 @@ figcaption {
 .container-timeline {
     padding: 10px 30px;
     position: relative;
-    width: 50%;
+    width: 45%;
 }
 
 .left {
-    left: -2%;
+    left: 0%;
+    margin-left:1%;
 }
 
 .left::before {
@@ -161,13 +167,13 @@ figcaption {
     width: 0;
     z-index: 1;
     right: 23px;
-    border: medium solid white;
+    border: medium solid black;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent black;
 }
 
 .right {
-    left: 48.75%;
+    left: 50%;
 }
 
 .right::before {
@@ -178,14 +184,14 @@ figcaption {
     width: 0;
     z-index: 1;
     left: 23px;
-    border: medium solid white;
+    border: medium solid black;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent black transparent transparent;
 }
 
 .content-timeline {
     padding: 20px 30px;
-    background-color: white;
+    background-color: black;
     position: relative;
     border-radius: 6px;
 }

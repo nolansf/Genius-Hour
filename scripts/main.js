@@ -1,12 +1,10 @@
-// parallax, slowed scrolling of certain elemeents
-/*
-    const parallax = document.getElementsByClassName("parallax");
+let landing = document.getElementById('landing');
 
-    window.addEventListener('scroll', function(){
-        const offset = window.pageYOffset;
-        parallax.style.backgroundPositionY = `${offset * 1.2}px`;
-    })
-*/
+//paralax
+window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    console.log(value);s
+})
 
 
 // updates clock
@@ -24,6 +22,7 @@ function updateClock(){
     clock.innerHTML = `${h}:${m}:${s}`
 }
 
+/*
 // hides and shows navigation bar
 function ScrollDirection(event){
     var delta;
@@ -40,3 +39,4 @@ function ScrollDirection(event){
         document.body.header.style.backgroundColor = rgba(256, 256, 256, 1);
     }
 }
+*/
