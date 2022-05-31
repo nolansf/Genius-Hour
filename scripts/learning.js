@@ -13,8 +13,8 @@ const app = {
         let key = '9c8765708f57f9f4286624d9f20d2995';
         let lang = 'en';
         let units = 'imperial';
-        let exclude = 'hourly,daily,alerts'
-        let url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=${units}&lang=${lang}&exclude=${exclude}`;
+        // issue where 3.0 wasnt working properly so i had to move to 2.5 where it suddenly worked
+        let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=${units}&lang=${lang}`;
 
         fetch(url)
         .then(resp => {

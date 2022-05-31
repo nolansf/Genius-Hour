@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Nolan Flynn">
+
+        
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <link rel="stylesheet" href="../css/learning.css" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Macondo&family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- 
+            font-family: 'Beau Rivage', cursive;
+            font-family: 'Macondo', cursive;
+            font-family: 'Merriweather', serif;
+            font-family: 'Raleway', sans-serif;
+         -->
+
+        <title>Genuis Hour Project</title>
+    </head>
+
+
+
+    <body>
+
+        <header>
+            <div class="header-left">
+                <div id="color-theme">
+                    <a class="nav-link" href="../index.html">LOGO</a>
+                    <!-- logo needed, but to lazy to make it -->
+                </div>
+            </div>
+
+            <div class="header-center">
+                <nav class="navbar" role="navigation">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+
+                        <!-- bring you back home (just in case i want to expand) -->
+                        <li class="nav-item dropdown">
+                            <div class="dropdown-btn">
+                                <a class="nav-link" href="./pages/learning.html">Learning</a>
+                            </div>
+                            <!-- shows something that is completely different from teh website itself, this will lead you to a weather api -->
+                            <div class="dropdown-content">
+                                <a class="dropdown-link" href="https://www.w3schools.com/" target="_blank">w3schools</a>
+                                <a class="dropdown-link" href="https://www.codecademy.com/" target="_blank">codecademy</a>
+                                <a class="dropdown-link" href="https://www.freecodecamp.org/" target="_blank">freecodecamp</a>
+                                <a class="dropdown-link" href="https://free-for.dev/#/?id=free-fordev" target="_blank">free-for.dev</a>
+                            </div>
+                            <!-- take me to where i learned to code, why i did it, and my insparation for this website -->
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/features.html">Features</a>
+                            <!-- show cases individual features of the landing page -->
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/nolansf/Genius-Hour" target="_blank">Code</a>
+                            <!-- directs you to github -->
+                        </li>
+                    </ul>
+                </nav>    
+            </div>
+            
+            <div class="header-right">
+                <div class="sidebar">
+                    <div class="sidebar-btn">Sidebar</div>
+                    <div class="sidebar-content">
+                        <div id="clock">11:11:11</div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- sidebar menu for extra stuff -->
+        </header>
+
+        <div class="container banner">
+            <h4>Big thanks to <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> for their free data calls and easy to read api doc</h4>
+        </div>
+
+        <main>
+            
+
+            <div class="form-container">
+                <span class="form-input-text">Lat</span>
+                <input type="text" class="form-input" id="latitude" placeholder="laditude" value="37.77">
+                <span class="form-input-text">Lon</span>
+                <input type="text" class="form-input" id="longitude" placeholder="longitude" value="122.42">
+                
+                <div class="form-buttons">
+                    <button id="getBtn" type="button" class="btn">Get Weather</button>
+                    <button id="currentBtn" type="button" class="btn">Use Current Location</button>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <h2>Weather</h2>
+            <div class="card">
+                <h5>Date</h5>
+                <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weather description" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Weather Currently in <!-- location here --></h3>
+                    <p class="card-text">High / Low</p>
+                    <p class="card-text">Feels Like</p>
+                    <p class="card-text">Wind speed and direction</p>
+                    <p class="card-text">Wind gust</p>
+                    <p class="card-text">Humidity</p>
+                    <p class="card-text">Dew Point</p>
+                    <p class="card-text">Pressure</p>
+                    <p class="card-text">UV Index</p>
+                    <p class="card-text">Visibility</p>
+                    <p class="card-text">Moon Phase</p>
+                    <p class="card-text">sun rise</p>
+                    <p class="card-text">sun set</p>
+                </div>
+            </div>
+        </main>
+
+        
+        <footer>
+            <h3>&copy; 2022 Nolan Flynn</h3>
+
+            <div class="breadcrumb-container">
+                <ul class="breadcrumb">
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="https://github.com/nolansf/Genius-Hour" target="_blank">Source Code</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <script async src="../scripts/learning.js"></script>
+    </body>
+</html>

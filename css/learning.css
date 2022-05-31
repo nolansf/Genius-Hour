@@ -1,0 +1,53 @@
+main {
+    margin: 3vw 5vw;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.banner {
+    padding-top: 35px;
+    background-color: #BF223C;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.banner a {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1vw;
+    padding: 8px;
+}
+
+.divider {
+    background-color: rgb(64, 107, 247);
+    height: 5px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 0 2vw;
+    width: 30vw;    
+}
+
+/*.card-body {
+    display: grid;
+    grid-template-columns: 1fr 1% 1fr;
+    grid-template-rows: repeat(7, 1fr);
+}
+*/
+
+.card-body * {
+    border: 1px solid black;
+}
