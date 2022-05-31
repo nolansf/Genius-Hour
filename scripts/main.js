@@ -3,7 +3,7 @@ let landing = document.getElementById('landing');
 //paralax
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
-    console.log(value);s
+    console.log(value);
 })
 
 
