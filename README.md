@@ -1,23 +1,17 @@
-# learning
+# The Project
 
-this will be all about different specifc and difficult skills that i learn and practical to me
+Initally, this project was used for me to see how much i have retained and left to learn in the space of ui/ux design.
 
-i will be trying new thinng, testing pallets and building a site not as a portfolio but to test all new skills
+This project was very difficult for me. I haev to learn new way and mediums to be able to produce a look that would be good enough to present to class. Even though the project is submitted, this doesnt mean that the project itself will ever be comeplete. I intend to continue toupdate the website as frequently as i can when i learn something new while exploring the internet.
 
-## skills
+At the start, i though i was goin gto build a simple website that uses an api, but i didn't tihnk that was going to be enough will be trying new thinng, testing pallets and building a site not as a portfolio but to test all new skills
 
-- parallax
-- animations
-- 3d animations
-- javascript interations
+## main new skills
+
+- parallax-ish
 - good custom graphics
-- functional search bar
-- uplaoding an image to change the background
 - changing color when pressing a button
-- music player
 - api functionality (weather)
-- text the moves againt the website
-- personal database
 - media queries for all devices
 
 ## insparations and functionality
