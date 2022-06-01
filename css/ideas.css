@@ -12,6 +12,9 @@ body {
 .loader {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10vh 3vw ;
+    background-color: rgba(36, 36, 36, 0.75)
 }
 
 .bar {
@@ -48,7 +51,7 @@ body {
     width: calc(100%-2vh);
     padding: 1% 2vh;
     background-color: var(--parent);
-    margin-top: 5%;
+    margin: 5%;
 }
 
 .card-divider {

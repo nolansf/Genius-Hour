@@ -131,6 +131,7 @@ footer {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: .5vw
 }
 
 footer h3 {
