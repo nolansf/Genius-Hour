@@ -26,3 +26,13 @@ At the start, i though i was goin gto build a simple website that uses an api, b
 - origanality --> creating something new
 - inforamtion adn discovery --> finds an issue and a clever new way to solve the problem
 - problem solving and solution finding --> improves the solutions found
+
+## main questions
+
+Discuss with the class why you have chosen this particular project
+Why is this your passion or interest and how did it start? Include in your conversation with us which of the four areas of our exploration you chose (Help Make the World/Community a Better Place; The UnGoogleable; Create/Innovate; Learn or Master).
+What was your perception of yourself before beginning this project? Has that perception changed and why do you think that is?
+Has this encouraged creativity in you? If so, how?
+Do you feel as if this is something you will continue to do and why?
+During the beginning of this course, we discussed whether we believed that schools kill creativity as we applied our own definition - considering this, what type of advice would you give to a young child as they move their way through elementary, middle, and high school.
+From what you’ve learned about yourself and what you’ve learned from this project, what is one major lesson that you would impart to your classmates before graduating?
