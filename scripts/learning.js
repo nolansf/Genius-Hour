@@ -64,7 +64,7 @@ const app = {
                     </div>
                     <div class="sample-card-row">
                         <p class="sample-card-text">Humidity</p>
-                        <p class="sample-card-text">${resp.current.humidity}</p>
+                        <p class="sample-card-text">${resp.current.humidity}%</p>
                     </div>
                     <div class="sample-card-row">
                         <p class="sample-card-text">Pressure</p>
