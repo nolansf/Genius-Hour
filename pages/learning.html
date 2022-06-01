@@ -103,24 +103,135 @@
 
             <div class="divider"></div>
 
-            <h2>Weather</h2>
-            <div class="card">
-                <h5>Date</h5>
-                <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weather description" class="card-img">
-                <div class="card-body">
-                    <h3 class="card-title">Weather Currently in <!-- location here --></h3>
-                    <p class="card-text">High / Low</p>
-                    <p class="card-text">Feels Like</p>
-                    <p class="card-text">Wind speed and direction</p>
-                    <p class="card-text">Wind gust</p>
-                    <p class="card-text">Humidity</p>
-                    <p class="card-text">Dew Point</p>
-                    <p class="card-text">Pressure</p>
-                    <p class="card-text">UV Index</p>
-                    <p class="card-text">Visibility</p>
-                    <p class="card-text">Moon Phase</p>
-                    <p class="card-text">sun rise</p>
-                    <p class="card-text">sun set</p>
+            <div class="sample-card sample-card-current">
+                <h5>Current's Forecast</h5>
+                <div class="sample-card-banner">
+                    <div>
+                        <p class="sample-card-text big">92&deg;</p>
+                        <p class="sample-card-text">Feels Like</p>
+                    </div>
+                    <div>
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weather description" class="card-img">  
+                        <p class="sample-card-img-desciption">Rain</p>
+                    </div>
+                </div>
+                
+                <div class="sample-card-body">
+                    <div class="sample-card-table">
+                        <div class="sample-card-col">
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">High / Low</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">Humidity</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">Pressure</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">Visibility</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                        </div>
+                        <div class="sample-card-col">
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">Wind</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">Dew Point</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">UV Index</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                            <div class="sample-card-row">
+                                <p class="sample-card-text">Sunrise</p>
+                                <p class="sample-card-text">something</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="sample-card sample-card-hourly">
+                <h3>Hourly Forecast</h3>
+                <div class="inline hour">
+                    <div class="sample-card-hour">
+                        <p class="sample-card-title now">Now</p>
+                        <p class="sample-card-degree">79&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-hour">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree">79&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-hour">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree">79&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-hour">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree">79&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-hour">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree">79&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="sample-card sample-card-daily">
+                <h3>Daily Forecast</h3>
+                <div class="inline day">
+                    <div class="sample-card-day">
+                        <p class="sample-card-title now">Today</p>
+                        <p class="sample-card-degree-high">79&deg;</p>
+                        <p class="sample-card-degree-low">70&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-day">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree-high">79&deg;</p>
+                        <p class="sample-card-degree-low">70&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-day">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree-high">79&deg;</p>
+                        <p class="sample-card-degree-low">70&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-day">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree-high">79&deg;</p>
+                        <p class="sample-card-degree-low">70&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
+                    <div class="sample-card-day">
+                        <p class="sample-card-title">Monday</p>
+                        <p class="sample-card-degree-high">79&deg;</p>
+                        <p class="sample-card-degree-low">70&deg;</p>
+                        <img class="sample-card-img" src="https://openweathermap.org/img/wn/10d@2x.png">
+                        <p class="sample-card-rain-chance">condition</p>
+                    </div>
                 </div>
             </div>
         </main>

@@ -21,8 +21,13 @@ main {
     text-decoration: underline;
 }
 
+.form-container input{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
 .btn {
-    background-color: gray;
+    background-color: rgb(85, 123, 247);
     color: white;
     border: 2px solid black;
     border-radius: 10px;
@@ -31,23 +36,105 @@ main {
 }
 
 .divider {
-    background-color: rgb(64, 107, 247);
+    background-color: rgb(85, 123, 247);
     height: 5px;
 }
 
 .card {
     border: 1px solid black;
-    padding: 0 2vw;
+    padding: 15vw 2vw;
     width: 30vw;    
 }
 
-/*.card-body {
-    display: grid;
-    grid-template-columns: 1fr 1% 1fr;
-    grid-template-rows: repeat(7, 1fr);
+/* weather */
+.sample-card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1%;
+    margin: 5%;
 }
-*/
 
-.card-body * {
-    border: 1px solid black;
+.sample-card h5 {
+    margin-top: 1vh;
+    font-size: 1.3em;
+}
+
+.sample-card-banner {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.sample-card-banner .big {
+    font-size: 3.5em;
+    line-height: 0;
+}
+
+.sample-card-banner div {
+    text-align: center;
+}
+
+.sample-card-banner div .sample-card-img-desciption {
+    line-height: 0;
+}
+
+.sample-card-hourly h3, .sample-card-daily h3 {
+    margin: 0;
+    margin-top: 1vh;
+    font-weight: bold;
+}
+
+.inline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3vh 0;
+}
+
+.sample-card-hour, .sample-card-day {
+    text-align: center;
+}
+
+.sample-card-title {
+    font-size: 1em;
+    margin-left: 1%;
+}
+
+.sample-card-title.now {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.sample-card-degree-high, .sample-card-degree {
+    font-size: 1.35em;
+}
+
+.sample-card-degree-low {
+    font-weight: 300;
+}
+
+.sample-card-degree-high, .sample-card-degree-low, .sample-card-degree {
+    line-height: 0em;
+}
+
+.sample-card-table {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sample-card-row {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.sample-card-col {
+    width: 45%;
 }
